@@ -13,8 +13,6 @@ html {
 }
 
 body { 
-  // 
-  
   .dashboard {
     height: 100vh;
     display: grid;
@@ -29,24 +27,19 @@ body {
       flex-direction: column; 
       justify-content: space-between; 
       align-items: center; 
-      padding: 2rem 0; 
       color:#001847;
 
-      .logo-container { 
-        width: 100%;
-        text-align: center;
+      .heading-logo-container{ 
+        display: grid; 
+        place-items: center;
+        width: 100%; 
+        height: 80px;
+        border-bottom: 1px solid rgb(214, 214, 214);
         
         .main-icon {  
           font-size: 3rem; 
         } 
-
-        hr { 
-          margin-top: 2rem;  
-          border-color: rgb(230, 230, 230); 
-          opacity: 0.2;
-        }
       }
-       
 
       .middle-icons { 
         display: flex; 
@@ -68,18 +61,15 @@ body {
       } 
 
       .trailing-logo-container { 
-        width: 100%;
-        text-align: center;
+        display: grid; 
+        place-items: center;
+        width: 100%; 
+        height: 80px;
+        border-top: 1px solid rgb(214, 214, 214);
         
         .trailing-icon {
           font-size: 3rem; 
         } 
-
-        hr { 
-          margin-bottom: 2rem;  
-          border-color: rgb(230, 230, 230); 
-          opacity: 0.2;
-        }
       }
     }
 

@@ -40,23 +40,20 @@ body .dashboard .icon-panel {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 0;
   color: #001847;
 }
 
-body .dashboard .icon-panel .logo-container {
+body .dashboard .icon-panel .heading-logo-container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
   width: 100%;
-  text-align: center;
+  height: 80px;
+  border-bottom: 1px solid #d6d6d6;
 }
 
-body .dashboard .icon-panel .logo-container .main-icon {
+body .dashboard .icon-panel .heading-logo-container .main-icon {
   font-size: 3rem;
-}
-
-body .dashboard .icon-panel .logo-container hr {
-  margin-top: 2rem;
-  border-color: #e6e6e6;
-  opacity: 0.2;
 }
 
 body .dashboard .icon-panel .middle-icons {
@@ -85,18 +82,16 @@ body .dashboard .icon-panel .middle-icons span:nth-child(1) {
 }
 
 body .dashboard .icon-panel .trailing-logo-container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
   width: 100%;
-  text-align: center;
+  height: 80px;
+  border-top: 1px solid #d6d6d6;
 }
 
 body .dashboard .icon-panel .trailing-logo-container .trailing-icon {
   font-size: 3rem;
-}
-
-body .dashboard .icon-panel .trailing-logo-container hr {
-  margin-bottom: 2rem;
-  border-color: #e6e6e6;
-  opacity: 0.2;
 }
 
 body .dashboard .inbox {
