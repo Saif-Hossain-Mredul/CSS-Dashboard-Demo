@@ -144,6 +144,7 @@ body .dashboard .inbox .dashboard-title {
   height: 80px;
   padding: 2rem;
   font-size: 2rem;
+  color: #001847;
   border-bottom: 1px solid rgba(214, 214, 214, 0.6);
 }
 
@@ -176,7 +177,7 @@ body .dashboard .inbox .task-overview .list-header span {
 }
 
 body .dashboard .inbox .task-overview .list-header span b {
-  color: black;
+  color: #001847;
 }
 
 body .dashboard .inbox .task-overview .list-view .list-item {
@@ -201,6 +202,7 @@ body .dashboard .inbox .task-overview .list-view .list-item .text-container .tit
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0.2rem;
+  color: #001847;
 }
 
 body .dashboard .inbox .task-overview .list-view .list-item .text-container .subtitle {
@@ -269,6 +271,7 @@ body .dashboard .inbox .stat-section .stat-section-title {
   font-weight: 700;
   font-size: 1.7rem;
   margin-bottom: 0.1rem;
+  color: #001847;
 }
 
 body .dashboard .inbox .stat-section .stat-section-subtitle {
@@ -419,7 +422,7 @@ body .dashboard .header .right-section .button-right .image-container {
 }
 
 body .dashboard .header .right-section .button-right .text-container .subtitle {
-  color: #4f4f4f;
+  color: #001847;
 }
 
 body .dashboard .details {
@@ -505,7 +508,7 @@ body .dashboard .details .section-1 .cards-container .card-one .top-section .top
 }
 
 body .dashboard .details .section-1 .cards-container .card-one .lower-section {
-  margin-left: 1.3rem;
+  margin-left: 2.6rem;
   margin-bottom: 1rem;
 }
 
@@ -588,7 +591,7 @@ body .dashboard .details .section-1 .cards-container .card-two .top-section .ico
 
 body .dashboard .details .section-1 .cards-container .card-two .top-section .top-section-header .top-section-title {
   font-size: 1.3rem;
-  color: #536585;
+  color: #001847;
 }
 
 body .dashboard .details .section-1 .cards-container .card-two .top-section .top-section-header .top-section-subtitle {
@@ -597,10 +600,8 @@ body .dashboard .details .section-1 .cards-container .card-two .top-section .top
 }
 
 body .dashboard .details .section-1 .cards-container .card-two .lower-section .image-container {
-  background-color: red;
   width: 1;
   height: 17.5rem;
-  background-image: url(./graph.png);
   background-position: center;
   -o-object-fit: fill;
      object-fit: fill;
@@ -658,7 +659,7 @@ body .dashboard .details .section-1 .cards-container .card-three .top-section .t
 }
 
 body .dashboard .details .section-1 .cards-container .card-three .lower-section {
-  margin-left: 1.3rem;
+  margin-left: 2.6rem;
   margin-bottom: 1rem;
 }
 

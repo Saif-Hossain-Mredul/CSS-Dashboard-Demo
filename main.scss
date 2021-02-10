@@ -104,7 +104,8 @@ body {
         justify-content: center;
         height: 80px;
         padding: 2rem;  
-        font-size: 2rem;
+        font-size: 2rem; 
+        color: $textColorTwo;
         border-bottom: 1px solid rgba(214, 214, 214, 0.6);
       } 
 
@@ -130,7 +131,7 @@ body {
             font-weight: 500;
 
             b {
-              color: black;
+              color: $textColorTwo;
             }
           } 
         } 
@@ -152,7 +153,8 @@ body {
               .title { 
                 font-size: 1.2rem; 
                 font-weight: 700; 
-                margin-bottom: 0.2rem;
+                margin-bottom: 0.2rem; 
+                color: $textColorTwo;
               } 
 
               .subtitle { 
@@ -215,7 +217,8 @@ body {
         .stat-section-title {
           font-weight: 700;
           font-size: 1.7rem;
-          margin-bottom: 0.1rem;
+          margin-bottom: 0.1rem; 
+          color: $textColorTwo;
         }
 
         .stat-section-subtitle {
@@ -347,7 +350,8 @@ body {
 
           .text-container {
               .subtitle {
-                color: rgb(79, 79, 79);
+               //  color: rgb(79, 79, 79);
+               color: $textColorTwo;
               }
           }
         }
@@ -419,7 +423,7 @@ body {
               }
 
               .lower-section {
-                margin-left: 1.3rem; 
+                margin-left: 2.6rem; 
                 margin-bottom: 1rem;
                 .number-percentage {
 
@@ -486,7 +490,7 @@ body {
 
                   .top-section-title { 
                     font-size: 1.3rem;  
-                    color: $textColorOne;
+                    color: $textColorTwo;
                   } 
 
                   .top-section-subtitle { 
@@ -499,10 +503,10 @@ body {
               .lower-section { 
 
                 .image-container { 
-                  background-color: red;
+                  //background-color: red;
                   width: 1; 
                   height: 17.5rem; 
-                  background-image: url(./graph.png); 
+                  // background-image: url(./graph.png); 
                   background-position: center; 
                   object-fit: fill; 
                   border-bottom-left-radius: 0.8rem; 
@@ -550,7 +554,7 @@ body {
               }
 
               .lower-section {
-                margin-left: 1.3rem; 
+                margin-left: 2.6rem; 
                 margin-bottom: 1rem;
                 .number-percentage {
 
@@ -595,7 +599,7 @@ body {
             .card-four { 
               flex: 2;
               background-color: $blue-white;
-            }
+          }
         }
       }
     }
