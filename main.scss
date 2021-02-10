@@ -259,7 +259,7 @@ body {
     .header {
       grid-column: 3 / -1;
       grid-row: 1 / 2;
-      padding: 0 2rem;
+      padding: 0 3rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -350,6 +350,72 @@ body {
                 color: rgb(79, 79, 79);
               }
           }
+        }
+      }
+    } 
+
+    .details {  
+      padding: 0 3rem;
+
+      .section-1 { 
+
+        .title { 
+          font-size: 2.6rem; 
+          color: $textColorOne; 
+          font-weight: 300;  
+          margin-bottom: 1.6rem;
+
+          b { 
+            font-weight: 600;
+          }
+        } 
+
+        .cards-container { 
+            height: 24rem; 
+            display: flex; 
+            justify-content: space-between; 
+            gap: 2rem; 
+
+            .card { 
+              flex: 1; 
+              padding: 1.3rem;
+              background-color: #FFB800; 
+              border-radius: 0.8rem; 
+              box-shadow: 6px 6px 20px rgba($color: black, $alpha: 0.08);
+            } 
+
+            .card-one { 
+              .top-section { 
+                display: flex; 
+                align-items: center; 
+
+                .icon-container { 
+                  height: 5rem; 
+                  width: 5rem;  
+                  margin-right: 1.3rem;
+                  background-color: white; 
+                  display: grid; 
+                  place-items: center; 
+                  border-radius: 0.8rem; 
+                  font-size: 2.2rem; 
+                  box-shadow: 6px 6px 20px rgba($color: black, $alpha: 0.08);
+                }
+              }
+            } 
+
+            .card-two { 
+              flex: 1.6; 
+              background-color: white;
+            } 
+
+            .card-three { 
+              
+            } 
+
+            .card-four { 
+              flex: 2;
+              background-color: $blue-white;
+            }
         }
       }
     }
