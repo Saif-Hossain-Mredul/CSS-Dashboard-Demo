@@ -34,7 +34,7 @@ body {
         place-items: center;
         width: 100%; 
         height: 80px;
-        border-bottom: 1px solid rgb(214, 214, 214);
+        border-bottom: 1px solid rgba(214, 214, 214, 0.6);
         
         .main-icon {  
           font-size: 3rem; 
@@ -61,14 +61,15 @@ body {
       } 
 
       .trailing-logo-container { 
+        color:#c9c9c9;
         display: grid; 
         place-items: center;
         width: 100%; 
         height: 80px;
-        border-top: 1px solid rgb(214, 214, 214);
+        border-top: 1px solid rgba(214, 214, 214, 0.6);
         
         .trailing-icon {
-          font-size: 3rem; 
+          font-size: 2.2rem; 
         } 
       }
     }
@@ -81,7 +82,7 @@ body {
       flex-direction: column;
       align-items: stretch;
 
-      h1 {  
+      .dashboard-title {  
         
         display: flex;
         flex-direction: column;
@@ -89,14 +90,14 @@ body {
         height: 80px;
         padding: 2rem;  
         font-size: 2rem;
-        border-bottom: 1px solid rgb(214, 214, 214);
+        border-bottom: 1px solid rgba(214, 214, 214, 0.6);
       } 
 
       .task-overview { 
         .list-header { 
           display: flex; 
           justify-content: space-between; 
-          padding: 2rem 2rem;  
+          padding: 2rem 2rem 1rem 2rem;  
           align-items: center;
 
           button { 
@@ -121,7 +122,6 @@ body {
 
         .list-view { 
           
-
           .list-item { 
             padding: 2rem; 
             display: flex; 
@@ -178,7 +178,7 @@ body {
         border: none;
         border-radius: 0.4rem;
         color: white;
-        box-shadow: 8px 8px 16px rgba($color: $primary-blue, $alpha: 0.35);
+        box-shadow: 8px 8px 16px rgba($color: $primary-blue, $alpha: 0.4);
 
         .leading-icon {
           font-weight: 600;
@@ -188,10 +188,55 @@ body {
         .title {
           margin-right: 1.2rem;
           font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
+
+      .stat-section {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0 2rem;
+
+        .stat-section-title {
+          font-weight: 700;
+          font-size: 1.7rem;
+          margin-bottom: 0.1rem;
         }
 
-        .trailing-icon {
+        .stat-section-subtitle {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #536585;
+          margin-bottom: 2rem;
+        }
 
+        .image {
+          width: 12rem;
+          height: 100%;
+          background-image: url(./image.png);
+          background-position: center;
+          background-size: cover;
+          margin: 0 auto;
+          margin-bottom: 0.4rem;
+        }
+
+        .stat-section-details {
+          font-size: 1.2rem;
+          color: #536585;
+          margin-bottom: 1.2rem;
+        }
+
+        .bottom-button {
+          width: 10rem;
+          border: none;
+          background-color: transparent;
+          color: $primary-blue;
+          border-radius: 0.4rem;
+          font-weight: 600;
+
+          span {
+            margin-right: 1rem;
+          }
         }
       }
     }
@@ -199,13 +244,13 @@ body {
     .header {
       grid-column: 3 / -1;
       grid-row: 1 / 2;
-      background-color: rgb(217, 66, 255);
+      background-color: #ffffff;
     }
 
     .details {
       grid-column: 3 / -1;
       grid-row: 2 / -1;
-      background-color: rgb(255, 130, 58);
+      background-color: rgb(255, 255, 255);
     }
   }
 }
