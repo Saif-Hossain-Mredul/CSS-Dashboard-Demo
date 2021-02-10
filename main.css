@@ -324,6 +324,10 @@ body .dashboard .header {
           align-items: center;
 }
 
+body .dashboard .header .input-field {
+  width: 250px;
+}
+
 body .dashboard .header .input-field span {
   margin-right: 1rem;
   font-size: 1.4rem;
