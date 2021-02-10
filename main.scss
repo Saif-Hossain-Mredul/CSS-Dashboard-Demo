@@ -13,21 +13,34 @@ html {
 }
 
 body {
-  .dashboard { 
-    .icon-panel { 
+  .dashboard {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80px 250px 1fr;
+    grid-template-rows: 80px 1fr;
 
-    } 
+    .icon-panel {
+      grid-column: 1 / 2;
+      grid-row: 1 / -1;
+      background-color: rgb(255, 79, 79);
+    }
 
-    .inbox { 
+    .inbox {
+      grid-column: 2 / 3;
+      grid-row: 1 / -1;
+      background-color: rgb(61, 120, 255);
+    }
 
-    } 
+    .header {
+      grid-column: 3 / -1;
+      grid-row: 1 / 2;
+      background-color: rgb(217, 66, 255);
+    }
 
-    .header { 
-
-    } 
-
-    .details { 
-      
+    .details {
+      grid-column: 3 / -1;
+      grid-row: 2 / -1;
+      background-color: rgb(255, 130, 58);
     }
   }
 }
