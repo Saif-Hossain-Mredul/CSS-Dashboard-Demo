@@ -378,27 +378,68 @@ body {
 
             .card { 
               flex: 1; 
-              padding: 1.3rem;
-              background-color: #FFB800; 
               border-radius: 0.8rem; 
               box-shadow: 6px 6px 20px rgba($color: black, $alpha: 0.08);
             } 
 
             .card-one { 
+              background-color: #F7B301; 
+
               .top-section { 
+                padding: 1rem 1.5rem;
                 display: flex; 
                 align-items: center; 
 
                 .icon-container { 
-                  height: 5rem; 
-                  width: 5rem;  
+                  height: 4.5rem; 
+                  width: 4.5rem;  
                   margin-right: 1.3rem;
-                  background-color: white; 
+                  background-color: white;  
+                  color: #40506f;
                   display: grid; 
                   place-items: center; 
                   border-radius: 0.8rem; 
                   font-size: 2.2rem; 
-                  box-shadow: 6px 6px 20px rgba($color: black, $alpha: 0.08);
+                  box-shadow: 6px 6px 16px rgba($color: black, $alpha: 0.08);
+                } 
+
+                .top-section-header {  
+
+                  .top-section-title { 
+                    font-size: 1.3rem; 
+                  } 
+
+                  .top-section-subtitle { 
+                    color: rgb(83, 82, 82); 
+                  }
+                }
+              }
+
+              .middle-section {
+                margin-left: 1.3rem;
+                .number-percentage {
+
+                  display: flex;
+                  align-items: center;
+
+                  .middle-percentage-number {
+                    font-weight: 700;
+                    font-size: 4rem;
+                    margin-right: 2rem;
+                  }
+  
+                  .middle-percentage-percentage {
+                    background-color: #e4ab1b; 
+                    padding: 0.5rem 1rem;
+                    border-radius: 36px;
+                    color: #795b0d;
+                  }
+                }
+
+                .in-progress {
+                  font-size: 1.2rem;
+                  color: #795b0d;
+                  font-weight: 600;
                 }
               }
             } 

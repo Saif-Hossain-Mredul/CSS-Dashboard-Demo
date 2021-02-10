@@ -452,14 +452,17 @@ body .dashboard .details .section-1 .cards-container .card {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 1.3rem;
-  background-color: #FFB800;
   border-radius: 0.8rem;
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.08);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.08);
 }
 
+body .dashboard .details .section-1 .cards-container .card-one {
+  background-color: #F7B301;
+}
+
 body .dashboard .details .section-1 .cards-container .card-one .top-section {
+  padding: 1rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -469,17 +472,58 @@ body .dashboard .details .section-1 .cards-container .card-one .top-section {
 }
 
 body .dashboard .details .section-1 .cards-container .card-one .top-section .icon-container {
-  height: 5rem;
-  width: 5rem;
+  height: 4.5rem;
+  width: 4.5rem;
   margin-right: 1.3rem;
   background-color: white;
+  color: #40506f;
   display: -ms-grid;
   display: grid;
   place-items: center;
   border-radius: 0.8rem;
   font-size: 2.2rem;
-  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.08);
-          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .top-section .top-section-header .top-section-title {
+  font-size: 1.3rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .top-section .top-section-header .top-section-subtitle {
+  color: #535252;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .middle-section {
+  margin-left: 1.3rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage .middle-percentage-number {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-right: 2rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage .middle-percentage-percentage {
+  background-color: #e4ab1b;
+  padding: 0.5rem 1rem;
+  border-radius: 36px;
+  color: #795b0d;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .middle-section .in-progress {
+  font-size: 1.2rem;
+  color: #795b0d;
+  font-weight: 600;
 }
 
 body .dashboard .details .section-1 .cards-container .card-two {
