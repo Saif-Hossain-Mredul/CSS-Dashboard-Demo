@@ -552,6 +552,60 @@ body .dashboard .details .section-1 .cards-container .card-two {
       -ms-flex: 1.6;
           flex: 1.6;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .dashboard .details .section-1 .cards-container .card-two .top-section {
+  padding: 1rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dashboard .details .section-1 .cards-container .card-two .top-section .icon-container {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-right: 1.3rem;
+  background-color: #F7B301;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 0.8rem;
+  font-size: 2.2rem;
+  -webkit-box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+body .dashboard .details .section-1 .cards-container .card-two .top-section .top-section-header .top-section-title {
+  font-size: 1.3rem;
+  color: #536585;
+}
+
+body .dashboard .details .section-1 .cards-container .card-two .top-section .top-section-header .top-section-subtitle {
+  color: #536585;
+  opacity: 0.4;
+}
+
+body .dashboard .details .section-1 .cards-container .card-two .lower-section .image-container {
+  background-color: red;
+  width: 1;
+  height: 17.5rem;
+  background-image: url(./graph.png);
+  background-position: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
 }
 
 body .dashboard .details .section-1 .cards-container .card-three {

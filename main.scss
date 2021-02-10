@@ -376,7 +376,7 @@ body {
             justify-content: space-between; 
             gap: 2rem; 
 
-            .card { 
+            .card {
               flex: 1; 
               border-radius: 0.8rem; 
               box-shadow: 6px 6px 20px rgba($color: black, $alpha: 0.08);
@@ -460,7 +460,55 @@ body {
 
             .card-two { 
               flex: 1.6; 
-              background-color: white;
+              background-color: white;  
+              display: flex; 
+              flex-direction: column;
+
+              .top-section { 
+                padding: 1rem 1.5rem;
+                display: flex; 
+                align-items: center; 
+
+                .icon-container { 
+                  height: 4.5rem; 
+                  width: 4.5rem;  
+                  margin-right: 1.3rem;
+                  background-color: #F7B301;   
+                  color: white;
+                  display: grid; 
+                  place-items: center; 
+                  border-radius: 0.8rem; 
+                  font-size: 2.2rem; 
+                  box-shadow: 6px 6px 16px rgba($color: black, $alpha: 0.08);
+                } 
+
+                .top-section-header {  
+
+                  .top-section-title { 
+                    font-size: 1.3rem;  
+                    color: $textColorOne;
+                  } 
+
+                  .top-section-subtitle { 
+                    color: $textColorOne;
+                    opacity: 0.4; 
+                  }
+                }
+              } 
+
+              .lower-section { 
+
+                .image-container { 
+                  background-color: red;
+                  width: 1; 
+                  height: 17.5rem; 
+                  background-image: url(./graph.png); 
+                  background-position: center; 
+                  object-fit: fill; 
+                  border-bottom-left-radius: 0.8rem; 
+                  border-bottom-right-radius: 0.8rem; 
+                }
+              }
             } 
 
             .card-three { 
