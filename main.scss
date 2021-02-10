@@ -383,7 +383,10 @@ body {
             } 
 
             .card-one { 
-              background-color: #F7B301; 
+              background-color: #F7B301;  
+              display: flex; 
+              flex-direction: column; 
+              justify-content: space-between;
 
               .top-section { 
                 padding: 1rem 1.5rem;
@@ -415,8 +418,9 @@ body {
                 }
               }
 
-              .middle-section {
-                margin-left: 1.3rem;
+              .lower-section {
+                margin-left: 1.3rem; 
+                margin-bottom: 1rem;
                 .number-percentage {
 
                   display: flex;
@@ -441,6 +445,16 @@ body {
                   color: #795b0d;
                   font-weight: 600;
                 }
+              }  
+
+              hr { 
+                color: rgb(255, 255, 255); 
+                border: 0.5px solid; 
+                opacity: 0.15;
+              }
+
+              .bottom-section { 
+                margin-bottom: 1rem;
               }
             } 
 
@@ -450,7 +464,84 @@ body {
             } 
 
             .card-three { 
-              
+              background-color: #0F5EF7;  
+              display: flex; 
+              flex-direction: column; 
+              justify-content: space-between;
+
+              .top-section { 
+                padding: 1rem 1.5rem;
+                display: flex; 
+                align-items: center; 
+
+                .icon-container { 
+                  height: 4.5rem; 
+                  width: 4.5rem;  
+                  margin-right: 1.3rem;
+                  background-color: #001847;  
+                  color: white;
+                  display: grid; 
+                  place-items: center; 
+                  border-radius: 0.8rem; 
+                  font-size: 2.2rem; 
+                  box-shadow: 6px 6px 16px rgba($color: black, $alpha: 0.08);
+                } 
+
+                .top-section-header {  
+
+                  .top-section-title { 
+                    font-size: 1.3rem;  
+                    color: white;
+                  } 
+
+                  .top-section-subtitle { 
+                    color: white; 
+                    opacity: 0.5; 
+                  }
+                }
+              }
+
+              .lower-section {
+                margin-left: 1.3rem; 
+                margin-bottom: 1rem;
+                .number-percentage {
+
+                  display: flex;
+                  align-items: center;
+
+                  .middle-percentage-number {
+                    font-weight: 700;
+                    font-size: 4rem;
+                    margin-right: 2rem; 
+                    color: white;
+                  }
+  
+                  .middle-percentage-percentage {
+                    background-color: #276EF8; 
+                    padding: 0.5rem 1rem;
+                    border-radius: 36px;
+                    color: white; 
+                    opacity: 0.5;
+                  }
+                }
+
+                .in-progress {
+                  font-size: 1.2rem;
+                  color: white; 
+                  opacity: 0.5;
+                  font-weight: 600;
+                }
+              }  
+
+              hr { 
+                color: rgb(255, 255, 255); 
+                border: 0.5px solid; 
+                opacity: 0.15;
+              }
+
+              .bottom-section { 
+                margin-bottom: 1rem;
+              }
             } 
 
             .card-four { 

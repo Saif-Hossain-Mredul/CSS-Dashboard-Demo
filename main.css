@@ -459,6 +459,16 @@ body .dashboard .details .section-1 .cards-container .card {
 
 body .dashboard .details .section-1 .cards-container .card-one {
   background-color: #F7B301;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .dashboard .details .section-1 .cards-container .card-one .top-section {
@@ -494,11 +504,12 @@ body .dashboard .details .section-1 .cards-container .card-one .top-section .top
   color: #535252;
 }
 
-body .dashboard .details .section-1 .cards-container .card-one .middle-section {
+body .dashboard .details .section-1 .cards-container .card-one .lower-section {
   margin-left: 1.3rem;
+  margin-bottom: 1rem;
 }
 
-body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage {
+body .dashboard .details .section-1 .cards-container .card-one .lower-section .number-percentage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,23 +518,33 @@ body .dashboard .details .section-1 .cards-container .card-one .middle-section .
           align-items: center;
 }
 
-body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage .middle-percentage-number {
+body .dashboard .details .section-1 .cards-container .card-one .lower-section .number-percentage .middle-percentage-number {
   font-weight: 700;
   font-size: 4rem;
   margin-right: 2rem;
 }
 
-body .dashboard .details .section-1 .cards-container .card-one .middle-section .number-percentage .middle-percentage-percentage {
+body .dashboard .details .section-1 .cards-container .card-one .lower-section .number-percentage .middle-percentage-percentage {
   background-color: #e4ab1b;
   padding: 0.5rem 1rem;
   border-radius: 36px;
   color: #795b0d;
 }
 
-body .dashboard .details .section-1 .cards-container .card-one .middle-section .in-progress {
+body .dashboard .details .section-1 .cards-container .card-one .lower-section .in-progress {
   font-size: 1.2rem;
   color: #795b0d;
   font-weight: 600;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one hr {
+  color: white;
+  border: 0.5px solid;
+  opacity: 0.15;
+}
+
+body .dashboard .details .section-1 .cards-container .card-one .bottom-section {
+  margin-bottom: 1rem;
 }
 
 body .dashboard .details .section-1 .cards-container .card-two {
@@ -531,6 +552,101 @@ body .dashboard .details .section-1 .cards-container .card-two {
       -ms-flex: 1.6;
           flex: 1.6;
   background-color: white;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three {
+  background-color: #0F5EF7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .top-section {
+  padding: 1rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .top-section .icon-container {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-right: 1.3rem;
+  background-color: #001847;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 0.8rem;
+  font-size: 2.2rem;
+  -webkit-box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .top-section .top-section-header .top-section-title {
+  font-size: 1.3rem;
+  color: white;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .top-section .top-section-header .top-section-subtitle {
+  color: white;
+  opacity: 0.5;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .lower-section {
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .lower-section .number-percentage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .lower-section .number-percentage .middle-percentage-number {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-right: 2rem;
+  color: white;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .lower-section .number-percentage .middle-percentage-percentage {
+  background-color: #276EF8;
+  padding: 0.5rem 1rem;
+  border-radius: 36px;
+  color: white;
+  opacity: 0.5;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .lower-section .in-progress {
+  font-size: 1.2rem;
+  color: white;
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three hr {
+  color: white;
+  border: 0.5px solid;
+  opacity: 0.15;
+}
+
+body .dashboard .details .section-1 .cards-container .card-three .bottom-section {
+  margin-bottom: 1rem;
 }
 
 body .dashboard .details .section-1 .cards-container .card-four {
