@@ -753,10 +753,6 @@ body .dashboard .details .section-1 .cards-container .card-four .top-section .ic
   color: #56bfa8;
 }
 
-body .dashboard .details .section-1 .cards-container .card-four hr {
-  opacity: 0.1;
-}
-
 body .dashboard .details .section-1 .cards-container .card-four .lower-section {
   padding: 1rem 2rem;
   display: -webkit-box;
@@ -811,18 +807,19 @@ body .dashboard .details .section-1 .cards-container .card-four .lower-section .
   width: 1.6rem;
   height: 1.6rem;
   border-radius: 200px;
+  margin-right: 0.5rem;
 }
 
 body .dashboard .details .section-1 .cards-container .card-four .lower-section .login-history-button {
   border: none;
   color: #0E5DF7;
-  font-weight: 600;
+  font-weight: 700;
   background: none;
   margin-top: 0.5rem;
 }
 
 body .dashboard .details .section-2 {
-  margin: 3rem 0;
+  margin: 3.1rem 0;
 }
 
 body .dashboard .details .section-2 .section-title {
@@ -832,6 +829,7 @@ body .dashboard .details .section-2 .section-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 2rem 0;
 }
 
 body .dashboard .details .section-2 .section-title .title {
@@ -856,5 +854,61 @@ body .dashboard .details .section-2 .section-title .icon-container span {
   color: #0E5DF7;
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+body .dashboard .details .section-2 .section-title .icon-container:hover {
+  cursor: pointer;
+}
+
+body .dashboard .details .section-2 .appointment-section-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card {
+  height: 13rem;
+  width: 22rem;
+  border-radius: 8px;
+  padding: 2.3rem;
+  margin-right: 2.5rem;
+  border: 1px solid #9dbbf04e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card .client-name {
+  text-decoration: none;
+  color: #0E5DF7;
+  font-weight: 700;
+  background: none;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card .client-company {
+  font-size: 1.2rem;
+  color: #536585;
+  margin-top: -1rem;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card .appointment-schedule {
+  font-size: 1.2rem;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card .appointment-schedule b {
+  color: #001847;
+}
+
+body .dashboard .details .section-2 .appointment-section-body .appointment-card .appointment-schedule .appointment-time {
+  color: #536585;
 }
 /*# sourceMappingURL=main.css.map */

@@ -520,8 +520,7 @@ body {
 						.top-section {
 							padding: 1rem 1.5rem;
 							display: flex;
-              align-items: center;
-              
+							align-items: center;
 
 							.icon-container {
 								height: 4.5rem;
@@ -595,21 +594,20 @@ body {
 					.card-four {
 						flex: 2;
 						background-color: $blue-white;
-            //background-color: #c9c9c9; 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: space-between;
+						//background-color: #c9c9c9;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
 
 						.top-section {
 							display: flex;
 							flex-direction: row;
 							align-items: center;
-              justify-content: space-between;
-              border-bottom: 1px solid #9dbbf04e;
-							
+							justify-content: space-between;
+							border-bottom: 1px solid #9dbbf04e;
 
-							.top-section-header { 
-                padding: 1rem 2rem;
+							.top-section-header {
+								padding: 1rem 2rem;
 
 								.top-section-title {
 									color: $textColorTwo;
@@ -618,15 +616,11 @@ body {
 							}
 
 							.icon-container {
-                font-size: 2.2rem;
-                padding: 1rem 2rem; 
-                color: #56bfa8;
+								font-size: 2.2rem;
+								padding: 1rem 2rem;
+								color: #56bfa8;
 							}
-            }
-            
-            hr {
-              opacity: 0.1;
-            }
+						}
 
 						.lower-section {
 							padding: 1rem 2rem;
@@ -634,9 +628,9 @@ body {
 							flex-direction: column;
 							justify-content: space-between;
 							font-size: 1.2rem;
-              color: $textColorOne; 
-              height: 15rem;
-              margin-bottom: 2rem;
+							color: $textColorOne;
+							height: 15rem;
+							margin-bottom: 2rem;
 
 							.last-login-date {
 								b {
@@ -652,7 +646,7 @@ body {
 								display: flex;
 
 								.ip {
-                  margin-right: 3rem;
+									margin-right: 3rem;
 
 									b {
 										color: $textColorTwo;
@@ -666,55 +660,105 @@ body {
 									.country-icon {
 										background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/1x1/bd.svg);
 										width: 1.6rem;
-                    height: 1.6rem; 
-                    border-radius: 200px;
+										height: 1.6rem;
+										border-radius: 200px;
+										margin-right: 0.5rem;
 									}
 								}
-              } 
-              
-              .login-history-button { 
-                border: none; 
-                color: $primary-blue; 
-                font-weight: 600; 
-                background: none; 
-                margin-top: 0.5rem;
-              }
+							}
+
+							.login-history-button {
+								border: none;
+								color: $primary-blue;
+								font-weight: 700;
+								background: none;
+								margin-top: 0.5rem;
+							}
 						}
 					}
 				}
-      } 
-      
-      .section-2 { 
-        margin: 3rem 0; 
+			}
 
-        .section-title { 
-          display: flex; 
-          align-items: center; 
+			.section-2 {
+				margin: 3.1rem 0;
 
-          .title { 
-            color: $textColorTwo;  
-            margin-right: 1rem;
-          }
+				.section-title {
+					display: flex;
+					align-items: center; 
+					margin: 2rem 0;
 
-          .icon-container{ 
-            height: 2.5rem;
-            width: 2.5rem; 
-            margin-top: 0.4rem;
-            border-radius: 50%;
-            background-color: #d3ddff;
-            display: grid;
-            place-items: center;
+					.title {
+						color: $textColorTwo;
+						margin-right: 1rem;
+					}
 
-            span {
-              margin-left: 0.2rem;
-              margin-bottom: 0.1rem;
-              color: $primary-blue;
-              font-size: 1.6rem;
-              font-weight: bold;
-            }
-          }
-        }
-      }
+					.icon-container {
+						height: 2.5rem;
+						width: 2.5rem;
+						margin-top: 0.4rem;
+						border-radius: 50%;
+						background-color: #d3ddff;
+						display: grid;
+						place-items: center;
+
+						span {
+							margin-left: 0.2rem;
+							margin-bottom: 0.1rem;
+							color: $primary-blue;
+							font-size: 1.6rem;
+							font-weight: bold;
+						} 
+
+						&:hover { 
+							cursor: pointer;
+						}
+					}
+				} 
+
+				.appointment-section-body { 
+					display: flex;  
+
+					.appointment-card { 
+						//background: #40506f; 
+						height: 13rem; 
+						width: 22rem; 
+						border-radius: 8px; 
+						padding: 2.3rem;  
+						margin-right: 2.5rem;
+						border: 1px solid #9dbbf04e; 
+						display: flex; 
+						flex-direction: column; 
+						justify-content: space-between; 
+
+						.client-name { 
+							text-decoration: none; 
+							color: $primary-blue;
+							font-weight: 700;
+							background: none;
+							margin-top: 0.5rem; 
+							font-size: 1.3rem;
+
+						} 
+
+						.client-company {
+							font-size: 1.2rem; 
+							color: $textColorOne; 
+							margin-top: -1rem;
+						}
+
+						.appointment-schedule { 
+							font-size: 1.2rem; 
+							b {
+								color: $textColorTwo;
+							}
+
+							.appointment-time {
+								color: $textColorOne;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
