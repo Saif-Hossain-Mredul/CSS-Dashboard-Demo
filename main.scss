@@ -805,7 +805,7 @@ body {
 						height: 13rem; 
 						width: 22rem; 
 						border-radius: 8px; 
-						padding: 2.3rem;  
+						overflow: hidden;
 						margin-right: 2.5rem;
 						border: 1px solid #9dbbf04e; 
 						display: flex; 
@@ -813,6 +813,7 @@ body {
 						justify-content: space-between;
 
 						.project-name { 
+							padding: 2.3rem;
 							text-decoration: none; 
 							color: $primary-blue;
 							font-weight: 700;
@@ -825,7 +826,35 @@ body {
 							font-size: 1.2rem; 
 							color: $textColorOne; 
 							margin-top: -1rem;
+							padding: 2.3rem;
 						} 
+
+						.progress-indicator { 
+							display: flex; 
+							width: 100%; 
+							 
+
+							.green { 
+								height: 0.4rem;   
+
+								flex: 3;
+								background: #00BC8B;
+							} 
+
+							.red { 
+								height: 0.4rem;   
+
+								flex: 1;
+								background: #EF3737;
+							} 
+
+							.yellow { 
+								height: 0.4rem;   
+
+								flex: 0.6;
+								background: #FF9E01;
+							}
+						}
 					}
 				}
 			}

@@ -966,7 +966,7 @@ body .dashboard .details .current-projects-section .current-projects-section-bod
   height: 13rem;
   width: 22rem;
   border-radius: 8px;
-  padding: 2.3rem;
+  overflow: hidden;
   margin-right: 2.5rem;
   border: 1px solid #9dbbf04e;
   display: -webkit-box;
@@ -982,6 +982,7 @@ body .dashboard .details .current-projects-section .current-projects-section-bod
 }
 
 body .dashboard .details .current-projects-section .current-projects-section-body .current-projects-card .project-name {
+  padding: 2.3rem;
   text-decoration: none;
   color: #0E5DF7;
   font-weight: 700;
@@ -994,5 +995,37 @@ body .dashboard .details .current-projects-section .current-projects-section-bod
   font-size: 1.2rem;
   color: #536585;
   margin-top: -1rem;
+  padding: 2.3rem;
+}
+
+body .dashboard .details .current-projects-section .current-projects-section-body .current-projects-card .progress-indicator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body .dashboard .details .current-projects-section .current-projects-section-body .current-projects-card .progress-indicator .green {
+  height: 0.4rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  background: #00BC8B;
+}
+
+body .dashboard .details .current-projects-section .current-projects-section-body .current-projects-card .progress-indicator .red {
+  height: 0.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #EF3737;
+}
+
+body .dashboard .details .current-projects-section .current-projects-section-body .current-projects-card .progress-indicator .yellow {
+  height: 0.4rem;
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  background: #FF9E01;
 }
 /*# sourceMappingURL=main.css.map */
