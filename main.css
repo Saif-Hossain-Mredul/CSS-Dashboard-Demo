@@ -83,7 +83,7 @@ body .dashboard .icon-panel .middle-icons span {
 }
 
 body .dashboard .icon-panel .middle-icons span:hover {
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
   color: #0E5DF7;
   font-size: 2.5rem;
   cursor: pointer;
@@ -103,7 +103,7 @@ body .dashboard .icon-panel .trailing-logo-container {
 
 body .dashboard .icon-panel .trailing-logo-container:hover {
   color: #0E5DF7;
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
   font-size: 2.5rem;
   cursor: pointer;
 }
@@ -117,7 +117,7 @@ body .dashboard .inbox {
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
   grid-row: 1 / -1;
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,7 +162,7 @@ body .dashboard .inbox .task-overview .list-header {
 }
 
 body .dashboard .inbox .task-overview .list-header button {
-  background-color: #FFB800;
+  background-color: #ffb800;
   border: none;
   border-radius: 36px;
   padding: 0.6rem 1.5rem;
@@ -461,7 +461,7 @@ body .dashboard .details .section-1 .cards-container .card {
 }
 
 body .dashboard .details .section-1 .cards-container .card-one {
-  background-color: #F7B301;
+  background-color: #f7b301;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,7 +578,7 @@ body .dashboard .details .section-1 .cards-container .card-two .top-section .ico
   height: 4.5rem;
   width: 4.5rem;
   margin-right: 1.3rem;
-  background-color: #F7B301;
+  background-color: #f7b301;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -610,7 +610,7 @@ body .dashboard .details .section-1 .cards-container .card-two .lower-section .i
 }
 
 body .dashboard .details .section-1 .cards-container .card-three {
-  background-color: #0F5EF7;
+  background-color: #0f5ef7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -680,7 +680,7 @@ body .dashboard .details .section-1 .cards-container .card-three .lower-section 
 }
 
 body .dashboard .details .section-1 .cards-container .card-three .lower-section .number-percentage .middle-percentage-percentage {
-  background-color: #276EF8;
+  background-color: #276ef8;
   padding: 0.5rem 1rem;
   border-radius: 36px;
   color: white;
@@ -709,5 +709,115 @@ body .dashboard .details .section-1 .cards-container .card-four {
       -ms-flex: 2;
           flex: 2;
   background-color: #F4F7FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #9dbbf04e;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .top-section .top-section-header {
+  padding: 1rem 2rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .top-section .top-section-header .top-section-title {
+  color: #001847;
+  font-size: 1.3rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .top-section .icon-container {
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  color: #56bfa8;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four hr {
+  opacity: 0.1;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+  color: #536585;
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .last-login-date b {
+  color: #001847;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .last-login-date .login-time {
+  color: #536585;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .ip-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .ip-information .ip {
+  margin-right: 3rem;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .ip-information .ip b {
+  color: #001847;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .ip-information .country-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .ip-information .country-information .country-icon {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/1x1/bd.svg);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 200px;
+}
+
+body .dashboard .details .section-1 .cards-container .card-four .lower-section .login-history-button {
+  border: none;
+  color: #0E5DF7;
+  font-weight: 600;
+  background: none;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
