@@ -128,6 +128,7 @@ body .dashboard .inbox {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  position: relative;
 }
 
 body .dashboard .inbox .dashboard-title {
@@ -263,8 +264,10 @@ body .dashboard .inbox .new-project__button .title {
 
 body .dashboard .inbox .stat-section {
   text-align: center;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 0 2rem;
+  position: absolute;
+  bottom: 0;
 }
 
 body .dashboard .inbox .stat-section .stat-section-title {
@@ -283,7 +286,7 @@ body .dashboard .inbox .stat-section .stat-section-subtitle {
 
 body .dashboard .inbox .stat-section .image {
   width: 12rem;
-  height: 100%;
+  height: 12rem;
   background-image: url(./image.png);
   background-position: center;
   background-size: cover;
