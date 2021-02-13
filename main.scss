@@ -722,7 +722,7 @@ body {
 					.appointment-card { 
 						//background: #40506f; 
 						height: 13rem; 
-						width: 22rem; 
+						width: 20rem; 
 						border-radius: 8px; 
 						padding: 2.3rem;  
 						margin-right: 2.5rem;
@@ -802,34 +802,79 @@ body {
 					display: flex;
 
 					.current-projects-card { 
-						height: 13rem; 
-						width: 22rem; 
+						height: 15rem;  
+						width: 30rem;
 						border-radius: 8px; 
 						overflow: hidden;
 						margin-right: 2.5rem;
 						border: 1px solid #9dbbf04e; 
 						display: flex; 
-						flex-direction: column; 
+						flex-direction: column;  
 						justify-content: space-between;
 
 						.project-name { 
-							padding: 2.3rem;
 							text-decoration: none; 
 							color: $primary-blue;
 							font-weight: 700;
 							background: none;
 							margin-top: 0.5rem; 
-							font-size: 1.3rem;
+							font-size: 1.3rem; 
+							padding: 2.3rem 2.3rem 0rem 2.3rem;
 						}
 
 						.project-description {
 							font-size: 1.2rem; 
-							color: $textColorOne; 
-							margin-top: -1rem;
-							padding: 2.3rem;
+							color: $textColorOne;  
+							padding: 0 2.3rem; 
+
 						} 
 
-						.progress-indicator { 
+						.projects-indicator { 
+							display: flex; 
+							justify-content: space-between;  
+							padding: 1rem 2.3rem; 
+							align-items: center;
+
+							.indicator { 
+								font-size: 1.1rem; 
+								color: $textColorTwo;
+							} 
+
+							.number { 
+								width: 1.6rem; 
+								height: 1.6rem; 
+								color: white;
+								padding: 0.3rem 0.75rem;
+								font-size: 1.2rem; 
+								font-weight: 500;
+								border-radius: 200px; 
+								margin-right: 0.5rem;
+							}
+
+							.completed {  
+								margin-right: 1rem;
+
+								.number { 
+									background: #00BC8B;
+								} 
+							} 
+
+							.in-progress { 
+								margin-right: 1rem;
+
+								.number { 
+									background: #FF9E01;
+								} 
+							} 
+
+							.to-do { 
+								.number { 
+									background: #EF3737;
+								} 
+							}
+						}
+
+						.progress-indicator-lines { 
 							display: flex; 
 							width: 100%; 
 							 
